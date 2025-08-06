@@ -6,7 +6,7 @@ metadata:
     app: wordpress
     tier: webapp
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: wordpress
